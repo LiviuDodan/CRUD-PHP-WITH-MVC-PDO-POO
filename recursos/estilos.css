@@ -1,0 +1,54 @@
+body{
+    margin:0;
+}
+
+body > a {
+    margin:1em;
+}
+
+body > header{ 
+    background-color: #333; 
+}
+
+#logo{ 
+    text-align: center; 
+    color: #8cd98c; 
+}
+
+img { 
+    max-width: 100%; 
+} 
+
+nav{ 
+    border-top: 1px solid  #8cd98c; 
+} 
+
+@media screen and (min-width: 850px){ 
+    nav ul{ 
+      display: flex; 
+      justify-content: center; 
+    } 
+    
+} 
+nav ul { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    background-color:#7a7a7a; 
+    text-align: center; 
+} 
+nav li a { 
+    color: #8cd98c; 
+      display: block; 
+      text-decoration: none; 
+      padding: .5em 1em; 
+} 
+nav li a:hover { 
+      background: tomato; 
+      color: #8cd98c; 
+} 
+nav li a:active { 
+    background: #8cd98c; 
+    color: tomato; 
+}
+
